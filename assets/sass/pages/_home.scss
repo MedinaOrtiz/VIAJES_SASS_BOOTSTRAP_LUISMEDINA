@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(27, 26, 26);
+  margin: 0px;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.carousel__img {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel__img{
+    height: 300px;
+  }
+}
+
+
+.img__profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.5px solid white;
+  
+}
